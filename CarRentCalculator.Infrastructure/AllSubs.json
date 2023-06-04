@@ -1,0 +1,62 @@
+[
+  {
+    "SubscriptionType": "Occasional",
+    "Rates": [
+      {
+        "CarType": "Small",
+        "PerHour": 6,
+        "PerKm": 0.34
+      },
+      {
+        "CarType": "Large",
+        "PerHour": 7.5,
+        "PerKm": 0.39
+      },
+      {
+        "CarType": "Electric",
+        "PerHour": 11,
+        "PerKm": 0.20
+      }
+    ]
+  },
+  {
+    "SubscriptionType": "Regular",
+    "Rates": [
+      {
+        "CarType": "Small",
+        "PerHour": 4,
+        "PerKm": 0.29
+      },
+      {
+        "CarType": "Large",
+        "PerHour": 5.5,
+        "PerKm": 0.34
+      },
+      {
+        "CarType": "Electric",
+        "PerHour": 9,
+        "PerKm": 0.15
+      }
+    ]
+  },
+  {
+    "SubscriptionType": "Frequent",
+    "Rates": [
+      {
+        "CarType": "Small",
+        "PerHour": 3,
+        "PerKm": 0.24
+      },
+      {
+        "CarType": "Large",
+        "PerHour": 4.5,
+        "PerKm": 0.29
+      },
+      {
+        "CarType": "Electric",
+        "PerHour": 8,
+        "PerKm": 0.12
+      }
+    ]
+  }
+]
