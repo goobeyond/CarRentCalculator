@@ -1,21 +1,12 @@
 ﻿using CarRentCalculator.Infrastructure.Models;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.IO.Enumeration;
-using System.Linq;
-using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 using System.Text.Json;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace CarRentCalculator.Infrastructure.Repositories
 {
     public class SubscriptionRepository : ISubscriptionRepository
     {
-        internal string FileName = "AllSubs.Json";
+        internal string FileName = "AllSubs.json";
         private readonly ILogger _logger;
 
 
